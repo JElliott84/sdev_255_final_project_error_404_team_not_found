@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
+<<<<<<< HEAD
+const nextConfig = {
+  /* config options here */
+  reactCompiler: true,
+=======
 
 // 1. Define the production status
 const isProd = process.env.NODE_ENV === "production";
@@ -19,6 +24,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+>>>>>>> 9a772071db0264fda1118ba935fc074763deee2f
 };
 
 export default nextConfig;
